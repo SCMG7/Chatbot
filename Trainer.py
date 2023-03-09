@@ -76,6 +76,6 @@ model = tflearn.DNN(net)
 
 
 #number of epoch is how many time will look through the data, show_metric is for ouputing a graph 
-model.fit(training, output, n_epoch=1000, batch_size=8, show_metric=True)
+model.fit(training, output, n_epoch=100, batch_size=8, show_metric=True)
 model.save("model.tflearn")
 
